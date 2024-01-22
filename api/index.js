@@ -26,7 +26,7 @@ mongoose.connection.on("disconnected", () => {
 
 //middlewares
 app.use(cors(
-  "origin" : ["https://hotel-room-booking-app-server.vercel.app/"],
+  "origin" : [""],
   "methods" : ["POST", "GET", "PUT"],
   "credentials" : true
 ))
